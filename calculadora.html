@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+
+</head>
+<body >
+<h1>calculadora k1</h1>
+<table border="2" height="160" width="140" align="center"> 
+	
+		<td>
+	
+			<table width="180" text-align= "center" border="1"> 
+
+			
+			<tr>
+			<form name="calculadora">
+				<input type="textfield" name="ans" value=" ">
+				<td><input type="button" value="7" onClick="document.calculadora.ans.value+='7'"></td>
+				<td><input type="button" value="8" onClick="document.calculadora.ans.value+='8'"></td>
+				<td><input type="button" value="9" onClick="document.calculadora.ans.value+='9'"></td>
+				<td><input type="button" value="/" onClick="document.calculadora.ans.value+='/'"></td>
+
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="document.calculadora.ans.value+='4'"></td>
+				<td><input type="button" value="5" onclick="document.calculadora.ans.value+='5'"></td>
+				<td><input type="button" value="6" onclick="document.calculadora.ans.value+='6'"></td>
+				<td><input type="button" value="*" onclick="document.calculadora.ans.value+='*'"></td>
+
+			</tr>
+			<tr>"
+				<td><input type="button" value="1" onclick="document.calculadora.ans.value+='1'"></td>
+				<td><input type="button" value="2" onclick="document.calculadora.ans.value+='2'"></td>
+				<td><input type="button" value="3" onclick="document.calculadora.ans.value+='3'"></td>
+				<td><input type="button" value="-" onclick="document.calculadora.ans.value+='-'"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="." onclick="document.calculadora.ans.value+='.'"></td>
+				<td><input type="button" value="0" onClick="document.calculadora.ans.value+='0'"></td>
+				<td><input type="button" value="=" onclick="document.calculadora.ans.value=eval(document.calculadora.ans.value)" ></td>
+				<td><input type="button" value="+" onclick="document.calculadora.ans.value+='+'"></td>
+	</tr>
+	</td>
+
+		
+	<!-- </table> -->
+	
+
+ <!-- <input type="textfield" name="ans" value=""> -->
+ 
+	<script src="calculadora.js"></script>
+</form>
+</body>
+</html>
